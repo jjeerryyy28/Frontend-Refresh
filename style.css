@@ -1,0 +1,133 @@
+*{    
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(226, 229, 231);
+    width: 90vw;
+    margin: 5vw;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#name{
+    text-align: center;
+    font-weight: bolder;
+    color: #0774c1;
+    font-size: 50px;
+}
+
+#details{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+hr{
+    border: 3px solid #0774c1;
+    margin-top: 5px;
+}
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#summary{
+    color: #0774c1;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+#para{
+    font-size: 15px;
+    margin-bottom: 15px;
+    max-width: 695px; /* Set the maximum width as per your preference */
+}
+
+#experience{
+    color: #0774c1;
+    text-decoration: underline;
+}
+
+#years{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul li{
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+#skills{
+    color: #0774c1;
+    text-decoration: underline;
+    margin-left: 17.99rem;
+}
+
+.my-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 18.20rem;
+}
+
+.my-skills li {
+    flex: 0 0 25%; /* Set flex-basis to 25% for four items in each row */
+    font-size: 15px;
+}
+
+#projects{
+    color: #0774c1;
+    text-decoration: underline;
+}
+
+.my-projects h5{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.my-projects ul li{
+    font-size: 15px;
+}
+
+#education{
+    color: #0774c1;
+    text-decoration: underline;
+    margin-left: -11rem;
+}
+
+.my-edu h5{
+    font-size: 15px;
+    margin-left: -11rem;
+}
+
+.my-edu p{
+    font-size: 15px;
+    margin-left: -11rem;
+}
+
+#certifications{
+    color: #0774c1;
+    text-decoration: underline;
+    margin-left: -19rem;
+}
+
+.my-certification ul li{
+    font-size: 15px;
+    margin-left: -18rem;
+}
+
+#achievements{
+    color: #0774c1;
+    text-decoration: underline;
+    margin-left: -4rem;
+}
+
+.my-achievements ul li{
+    font-size: 15px;
+    margin-left: -3rem;
+}
